@@ -79,3 +79,14 @@ MJE13005详细参数有：
 ### 可控硅
 
 * BT137X-800E    [三端双向可控硅开关元件, 8A额定, 800V峰值, 70mA 1.5V触发, 3引脚 TO-220F封装](http://www.rohm-chip.com/p/triacs/6571867/) https://wenku.baidu.com/view/8cd906e1b8f67c1cfad6b83e.html
+
+
+### 定时器
+
+* NE555P         [参考](http://www.elecfans.com/article/88/131/ctrlsc/time/2018/20180315647935_2.html)
+
+### 其他
+
+![SD Card](./SD卡说明.png)
+![ESP32 GPIO](./esp32-wroom.jpg)
+![](./stm%20cpu天梯图.png)
