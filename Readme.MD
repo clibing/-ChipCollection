@@ -52,14 +52,18 @@ MJE13005详细参数有：
   * ![](./LM317-LM337.png)
   * ![](./LM317-LM337-LF358P.jpg)
   * ![](./LM317-LM337-LF358P-demo.jpg)
-* LM1085    可调降压稳压芯片 3A， 引脚与LM317相同 ![](./LM-1085-可调稳压-3A.png)
+* LM1085    可调降压稳压芯片 3A， 引脚与LM317相同 
   * ![](./LM-1085-可调稳压-3A.png)
+  * [参考文件1](./lm1085-01.pdf)
+  * [参考文件2](./lm1085-02.pdf)
 * LM2596    可调电压稳压芯片 3A [](https://wenku.baidu.com/view/681f1172f242336c1eb95e3d.html?fr=search)
 * L4940V12 -  [IC REG LDO 12V 1.5A TO220AB 芯片, 稳压器 低压差 +12V](https://html.alldatasheetcn.com/html-pdf/22477/STMICROELECTRONICS/L4940V12/1622/1/L4940V12.html)
 * PQ05RD11    [是一块5V四端可控稳压集成电路 2A](https://tech.hqew.com/circuit_1465311)  https://wenku.baidu.com/view/089e90787fd5360cba1adb4d.html
 * PQ30RV11   [ RV 11 代表1A， RV 21 代表2A]()
-
-
+* [L4925N(92B222 SING)](https://pdf1.alldatasheetcn.com/datasheet-pdf/view/22465/STMICROELECTRONICS/L4925.html)
+  L4925是单片集成的5V电压具有非常低的输出和附加功能的调节器，如上电复位和可编程复位延迟时间。它是为提供微机控制系统，特别是在汽车应用中。
+* [FK10KM(10 1310) 10A 450v](https://pdf1.alldatasheetcn.com/datasheet-pdf/view/304/MITSUBISHI/FK10KM-9.html)
+* [2SK2382](./2SK2382.pdf)
 
 ###  二极管整流器
 
@@ -70,23 +74,64 @@ MJE13005详细参数有：
 ### N- 场效应管
 
 * 9N60是场效应管，技术参数为9.5A/600V，代换：IRFPC50，BUZ334。
-* 2S K2391       东芝出的 100V20A N型 mos管 to-220塑封 可以用来替代的型号 IRF530N IRF540N IRF371都可以
+* 2SK 1118       东芝出的 600V20A N型 mos管[查看](./2SK1118.pdf)
+* 2SK 2391       东芝出的 100V20A N型 mos管 to-220塑封 可以用来替代的型号 IRF530N IRF540N IRF371都可以 [DataSheet](https://html.alldatasheetcn.com/html-pdf/348016/TOSHIBA/2SK2391/594/2/2SK2391.html)
 * CEFF640       [9.8A 200V Vg10v 180欧姆](https://html.alldatasheetcn.com/html-pdf/57771/CET/CEFF640/46/1/CEFF640.html)
 * KHB7D0N80F    N沟道7A 800V
 * SPP11N80C3_05   [800v 0.45Ω 11A](https://wenku.baidu.com/view/3448ae1e0b4e767f5acfce0b.html)
-* IRF2907Z      [75v 4.5mΩ 75A](https://wenku.baidu.com/view/44250249e45c3b3567ec8b4b.html)
+* IRLI3615      [](https://pdf1.alldatasheetcn.com/datasheet-pdf/view/97308/IRF/IRLI3615.html) , [PDF](./IRLI3615.pdf)
+* IRFxxxx
+  * IRF2907Z      [75v 4.5mΩ 75A](https://wenku.baidu.com/view/44250249e45c3b3567ec8b4b.html)
+  * IRF530  [DataSheet              ](https://html.alldatasheetcn.com/html-pdf/3043/MOTOROLA/IRF530/257/1/IRF530.html   )
+  * IRF540n [DataSheet 10v          ](https://html.alldatasheetcn.com/html-pdf/67486/INTERSIL/IRF540N/321/1/IRF540N.html )
+  * IRF640N [DataSheet 18A VGS10v   ](https://html.alldatasheetcn.com/html-pdf/152088/FAIRCHILD/IRF640N/486/1/IRF640N.html )
+  * IRF1104 [DataSheet 100A VGS40V  ](https://html.alldatasheetcn.com/html-pdf/68111/IRF/IRF1104/46/1/IRF1104.html  )
+  * IRF2804 [DataSheet 70A VGS40V   ](https://html.alldatasheetcn.com/html-pdf/92816/IRF/IRF2804/46/1/IRF2804.html )
+  * IRF1310N[DataSheet  42A VGS100V ](https://html.alldatasheetcn.com/html-pdf/68115/IRF/IRF1310N/47/1/IRF1310N.html )
+  * IRF3007 [DataSheet              ](https://html.alldatasheetcn.com/html-pdf/1008000/ISC/IRF3007/62/1/IRF3007.html)
+  * IRF3710 [DataSheet  57A VGS 10V ](https://html.alldatasheetcn.com/html-pdf/581480/NELLSEMI/IRF3710/384/1/IRF3710.html )
+* [2SK1290(NEC) Vgs=4v 13A](https://html.alldatasheetcn.com/html-pdf/108841/NEC/2SK1290/114/2/2SK1290.html)
+* [2SK1388(P 8N) Vds=30v 35A](https://html.alldatasheetcn.com/html-pdf/60813/FUJI/2SK1388/81/1/2SK1388.html)
+* [K1917(P)](./2SK1919.pdf)
+* [2SK2645(P 01) 600v 9A](https://html.alldatasheetcn.com/html-pdf/60928/FUJI/2SK2645-01MR/86/1/2SK2645-01MR.html)
+* [2SK2651(01) 900v 6A](https://pdf1.alldatasheetcn.com/datasheet-pdf/view/60935/FUJI/2SK2651.html)
+
+### P- 场效应管
+
+*IRF9530  [DataSheet p 13A VGS-10V](https://html.alldatasheetcn.com/html-pdf/674887/KEXIN/IRF9530/150/1/IRF9530.html)
 
 ### 可控硅
 
 * BT137X-800E    [三端双向可控硅开关元件, 8A额定, 800V峰值, 70mA 1.5V触发, 3引脚 TO-220F封装](http://www.rohm-chip.com/p/triacs/6571867/) https://wenku.baidu.com/view/8cd906e1b8f67c1cfad6b83e.html
-
+* 2SD 1277A (JAPAN) [PNP类型的](https://html.alldatasheet.com/html-pdf/12846/PANASONIC/2SD1277A/407/1/2SD1277A.html) [other](https://pdf1.alldatasheet.com/datasheet-pdf/view/270484/SAVANTIC/2SD1277A.html)
 
 ### 定时器
 
-* NE555P         [参考](http://www.elecfans.com/article/88/131/ctrlsc/time/2018/20180315647935_2.html)
+* NE555P         [参考](http://www.elecfans.com/article/88/131/ctrlsc/time/2018/20180315647935_2.html) 
 
 ### 其他
 
 ![SD Card](./SD卡说明.png)
 ![ESP32 GPIO](./esp32-wroom.jpg)
-![](./stm%20cpu天梯图.png)
+![STM CPU plex](./stm%20cpu天梯图.png)
+
+### 整流器
+
+* G4IBC10UD 
+![G4IBC10UD](./G4IBC10UD.png)
+  * 649P
+  * 622P
+  * 620P
+  * 506N
+  * 513N
+  * 613N
+  * 618N
+  * 525N
+* [UGF8JT 0128, 500v-600v 8A](https://html.alldatasheetcn.com/html-pdf/62242/GE/UGF8JT/20/1/UGF8JT.html)
+* [FES8JT 9312 50v-600v 8A](https://pdf1.alldatasheet.com/datasheet-pdf/view/151015/EIC/FES8JT.html)
+* [F10A60 (N 3A) 50v-600v 10A](https://html.alldatasheet.com/html-pdf/849278/FORMOSA/EF10A60F/596/2/EF10A60F.html)
+* [FMXG22 (44 20)](https://html.alldatasheetcn.com/html-pdf/38156/SANKEN/FMX-G22/181/1/FMX-G22.html)
+* [FMXG22 (49 01)](https://html.alldatasheetcn.com/html-pdf/38156/SANKEN/FMX-G22/181/1/FMX-G22.html)
+  
+### 不知道
+* J293(OM3)
