@@ -57,7 +57,7 @@ MJE13005详细参数有：
   * [参考文件1](./lm1085-01.pdf)
   * [参考文件2](./lm1085-02.pdf)
   * [参考](https://wenku.baidu.com/view/b5319975a26925c52cc5bf92.html)
-* LM2596    可调电压稳压芯片 3A [](https://wenku.baidu.com/view/681f1172f242336c1eb95e3d.html?fr=search)
+* LM2596    可调电压稳压芯片 3A [Baidu](https://wenku.baidu.com/view/681f1172f242336c1eb95e3d.html?fr=search)  [CN PDF](./lm2596cn.pdf)
 * L4940V12 -  [IC REG LDO 12V 1.5A TO220AB 芯片, 稳压器 低压差 +12V](https://html.alldatasheetcn.com/html-pdf/22477/STMICROELECTRONICS/L4940V12/1622/1/L4940V12.html)
 * PQ05RD11    [是一块5V四端可控稳压集成电路 2A](https://tech.hqew.com/circuit_1465311)  https://wenku.baidu.com/view/089e90787fd5360cba1adb4d.html
 * PQ30RV11   [ RV 11 代表1A， RV 21 代表2A]()
@@ -109,6 +109,9 @@ MJE13005详细参数有：
 ### 定时器
 
 * NE555P         [参考](http://www.elecfans.com/article/88/131/ctrlsc/time/2018/20180315647935_2.html) 
+
+LED PWD 控制
+![](./555-PWD-LWD.png)
 
 ### 其他
 
